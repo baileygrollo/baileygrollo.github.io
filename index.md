@@ -1,7 +1,5 @@
 ---
-layout: home
+layout: Home
 ---
 
-# Welcome!
 
-Hello World
