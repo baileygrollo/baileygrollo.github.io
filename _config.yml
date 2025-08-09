@@ -1,0 +1,9 @@
+title: "My Jekyll Site"
+description: "A GitHub Pages site using remote theme"
+baseurl: "" 
+url: "https://baileygrollo.github.io"
+
+plugins:
+  - jekyll-include-cache
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
