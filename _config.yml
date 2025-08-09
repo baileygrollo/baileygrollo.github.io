@@ -9,7 +9,7 @@ plugins:
   - jekyll-sitemap        # generates sitemap.xml
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
-minimal_mistakes_skin: "dirt"
+minimal_mistakes_skin: "air"
 
 author:
   name: "Bailey Grollo"
