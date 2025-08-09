@@ -1,9 +1,17 @@
-title: "My Jekyll Site"
+title: "Computational Physics"
 description: "A GitHub Pages site using remote theme"
 baseurl: "" 
 url: "https://baileygrollo.github.io"
 
 plugins:
   - jekyll-include-cache
+  - jekyll-seo-tag        # improves SEO
+  - jekyll-sitemap        # generates sitemap.xml
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: "dirt"
+
+author:
+  name: "Bailey Grollo"
+  github: baileygrollo
+  linkedin: https://www.linkedin.com/in/baileygrollo/
