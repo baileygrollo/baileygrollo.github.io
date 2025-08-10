@@ -15,8 +15,3 @@ author:
   name: "Bailey Grollo"
   github: baileygrollo
   linkedin: https://www.linkedin.com/in/baileygrollo
-  
-collections:
-  tabs:
-    output: true
-    sort_by: order
