@@ -1,7 +1,7 @@
 main:
   - title: "Home"
-    url: "{{ '/' | relative_url }}"
+    url: /
   - title: "About"
-    url: "{{ '/about/' | relative_url }}"
+    url: /about/
   - title: "Projects"
-    url: "{{ '/projects/' | relative_url }}"
+    url: /projects/
