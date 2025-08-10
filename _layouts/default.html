@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <!-- Chirpy styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/jekyll-theme-chirpy.css' | relative_url }}">
+
+  <style>
+    /* Extra styling for About & Projects tabs */
+    .top-tabs {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+      margin: 0;
+      padding: 0.5rem 1rem;
+      background: var(--main-bg);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .top-tabs li {
+      margin: 0;
+    }
+
+    .top-tabs a {
+      text-decoration: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      font-weight: 600;
+      color: var(--link-color);
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .top-tabs a:hover {
+      background: var(--hover-bg);
+      color: var(--hover-text);
+    }
+
+    .top-tabs .active a {
+      background: var(--active-bg, #444);
+      color: var(--active-text, #fff);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  {% include header.html %}
+
+  <!-- Tab Navigation -->
+  <nav aria-label="Top Navigation">
+    <ul class="top-tabs">
+      <li class="{% if page.url == '/' %}active{% endif %}">
+        <a href="{{ '/' | relative_url }}">Home</a>
+      </li>
+      <li class="{% if page.url contains '/about/' %}active{% endif %}">
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </li>
+      <li class="{% if page.url contains '/projects/' %}active{% endif %}">
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-wrapper">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  {% include footer.html %}
+
+</body>
+</html>
