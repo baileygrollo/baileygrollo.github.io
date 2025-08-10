@@ -1,4 +1,4 @@
-navigation:
+main:
   - title: "About"
     url: /about/
     identifier: about
