@@ -16,5 +16,8 @@ header:
   
 author:
   name: "Bailey Grollo"
+  #avatar: "/assests/img/avatar.jpg"
+  bio: "Quantum Physicist at [RMIT University](https://www.rmit.edu.au)"
+  location: "Melbourne, Australia"
   github: baileygrollo
-  linkedin: baileygrollo
+  linkedin: baileygrollo 
