@@ -1,5 +1,9 @@
 ---
-title: "About"
-layout: single
+layout: default
+title: About
+description: I am currently a quantum physicist at RMIT.
 ---
-About Page
+
+# About
+
+I am currently a quantum physicist at RMIT.
