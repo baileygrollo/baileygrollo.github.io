@@ -21,7 +21,10 @@ author:
   location: "Melbourne, Australia"
   github: baileygrollo
   linkedin: baileygrollo 
-
+  
+include:
+  - _pages
+  
 exclude:
   - about
   - projects
