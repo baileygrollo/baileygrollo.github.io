@@ -4,4 +4,8 @@ permalink: /projects/
 layout: single
 author_profile: true
 ---
-Projects Here
+
+# My Projects
+
+- [Project A](/projects/projectA/)
+- [Project B](/projects/projectB/)
