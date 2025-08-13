@@ -5,8 +5,8 @@ url: "https://baileygrollo.github.io"
 
 plugins:
   - jekyll-include-cache
-  - jekyll-seo-tag        # improves SEO
-  - jekyll-sitemap        # generates sitemap.xml
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "dark"
@@ -17,7 +17,6 @@ header:
 author:
   name: "Bailey Grollo"
   avatar: "/assets/img/ascii-animation.gif"
-  avatar_shape: "square"
   bio: "Quantum Physicist at [RMIT University](https://www.rmit.edu.au)"
   location: "Melbourne, Australia"
   github: baileygrollo
