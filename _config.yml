@@ -24,7 +24,3 @@ author:
   
 include:
   - _pages
-  
-exclude:
-  - about
-  - projects
